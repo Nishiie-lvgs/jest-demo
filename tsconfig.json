@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "types": [
+            "jest",
+            "node"
+        ],
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": "./src/",
+        "paths": {
+            "#/*": [
+                "*"
+            ]
+        }
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "../../business-frontend/app/pages/OfficeFeature/OfficeFeature.tsx",
+        "components/molecules/DisplayOfficeBaseInfo"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
